@@ -1,0 +1,24 @@
+{
+  "name": "digitinputplugin",
+  "version": "1.0.0",
+  "description": "数字小数点位数限制指令",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/digit-input.umd.cjs",
+  "module": "./dist/my-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/digit-input.js",
+      "require": "./dist/digit-input.umd.cjs"
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^5.0.1"
+  },
+  "scripts": {
+    "build": "vite build"
+  }
+}

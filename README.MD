@@ -6,6 +6,11 @@
 <input type="number"  v-digit-input={integer:4,point:2}></input>
 <input type="number"  v-digit-input></input>
 ```
+## install
+
+```
+npm i digitinputplugin
+```
 
 ## about
 

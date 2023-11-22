@@ -1,6 +1,6 @@
 {
   "name": "digitinputplugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "数字小数点位数限制指令",
   "type": "module",
   "files": [

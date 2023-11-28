@@ -1,7 +1,7 @@
 // vite.config.js
 import { resolve } from "path";
 import { defineConfig } from "vite";
-
+import removeConsole from "vite-plugin-remove-console";
 export default defineConfig({
   build: {
     lib: {
@@ -22,4 +22,5 @@ export default defineConfig({
       },
     },
   },
+  plugins:[removeConsole()]
 });

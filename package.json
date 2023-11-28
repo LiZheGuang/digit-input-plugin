@@ -7,7 +7,7 @@
     "dist"
   ],
   "main": "./dist/digit-input.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "module": "./dist/digit-input.js",
   "exports": {
     ".": {
       "import": "./dist/digit-input.js",
@@ -20,5 +20,8 @@
   },
   "scripts": {
     "build": "vite build"
+  },
+  "devDependencies": {
+    "vite-plugin-remove-console": "^2.1.1"
   }
 }
